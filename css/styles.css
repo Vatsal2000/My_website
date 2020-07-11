@@ -1,7 +1,6 @@
 body{
-    text-align: center;
-    margin: 0;
-    
+    margin: 0; 
+
 }
 
 .self_img{
@@ -10,9 +9,58 @@ body{
     width: 30%;
 }
 
+.vit_img{
+    padding: 5px 10px 5px 5px;
+    border-radius: 10%;
+    width: 28%;
+    float: left;
+}
+
 h1{
     font-family: 'Sacramento', cursive;
 }
+
+h2{
+    text-align: center;
+    margin: 5px auto 0px auto;
+    
+}
+
+h3{
+    text-align: center;
+    margin-top: 0px;
+}
+
+p{
+    text-align: justify;
+    margin 5px auto;
+    line-height: 2;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    margin: auto 2% auto 1.25%;
+    
+  }
+
+  .row {
+      margin: auto 1.25% auto 1.25%;    
+    }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
 
 hr{
     width: 300px;
@@ -22,10 +70,15 @@ hr{
     background-color: white;
 }
 
+.alumni{
+    width: 50%;
+    margin:10px auto 100px auto ;
+}
+
 #main{
     text-align: center;
     background-image: url("background-img.jpg");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     color: white;
 }
@@ -40,5 +93,7 @@ hr{
 
 #about{
     margin: auto;
-    width: 500px;
+    width: 50%;
 }
+
+
