@@ -1,12 +1,60 @@
-body{
-    margin: 0; 
-
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.self_img{
+body{
+    background-image: url("background-img.jpg");
+    background-size: cover;
+}
+
+
+.main{
+    text-align: center;
+    color: #B0B0B0;
+}
+
+.about{
+    margin: auto;
+    width: 50%;
+}
+
+.about img{
     padding: 20px;
     border-radius: 50%;
     width: 30%;
+}
+
+.about hr{
+    margin: 0px auto 20px auto;
+    width: 50%;
+    border: 5px;
+    color: #B0B0B0;
+    border-style: dotted;
+    border-bottom: none;
+}
+
+.about h1{
+    color: #D8D8D8;
+    font-family: 'Sacramento', cursive;
+}
+
+.about h2{
+    color: #D8D8D8;
+    text-align: center;
+    margin: 3px auto;
+    
+}
+
+.about p, .alumni p{
+    text-align: justify;
+    margin: 7px auto 10px auto;
+    line-height: 1.6em;
+}
+
+.alumni h2{
+    color: #D8D8D8;
+    margin: 20px auto 10px auto;
 }
 
 .vit_img{
@@ -16,84 +64,49 @@ body{
     float: left;
 }
 
-h1{
-    font-family: 'Sacramento', cursive;
-}
 
-h2{
-    text-align: center;
-    margin: 5px auto 0px auto;
-    
-}
+
 
 h3{
     text-align: center;
     margin-top: 0px;
 }
 
-p{
-    text-align: justify;
-    margin 5px auto;
-    line-height: 2;
-}
+
 
 .column {
     float: left;
     width: 30%;
     margin: auto 2% auto 1.25%;
     
-  }
+}
 
-  .row {
+.row {
       margin: auto 1.25% auto 1.25%;    
-    }
+}
 
-  .row:after {
+.row:after {
     content: "";
     display: table;
     clear: both;
-  }
-  
-  /* Style the counter cards */
-  .card {
+}
+
+.card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
     text-align: center;
     background-color: #f1f1f1;
-  }
-
-hr{
-    width: 300px;
-    color: white;
-    height: 1px;
-    border-style: solid;
-    background-color: white;
+    box-sizing: border-box;
 }
+
+
 
 .alumni{
     width: 50%;
     margin:10px auto 100px auto ;
 }
 
-#main{
-    text-align: center;
-    background-image: url("background-img.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: white;
-}
 
-#grad1 {
-    margin-top: 68%;
-    margin-right: 0px;
-    width: 100%;
-    height: 1000px;
-    background-image: linear-gradient(#202020,	#000000 );
-}
 
-#about{
-    margin: auto;
-    width: 50%;
-}
 
 
